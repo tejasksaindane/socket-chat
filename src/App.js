@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1> Chatt App</h1>
+        <h1>HealthChatt App</h1>
         {chat.map((payload, index) => {
           return (
             <p key={index}>
@@ -37,7 +37,7 @@ function App() {
           <input
             type="text"
             name="chat"
-            placeholder="Send Text"
+            placeholder="  Send Message"
             value={message}
             onChange={(e) => {
               setMessage(e.target.value);

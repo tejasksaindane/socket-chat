@@ -15,19 +15,24 @@ input {
   font-size: larger;
   color: black;
   border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: darkgray;
 }
 button {
   font-size: larger;
   margin-left: 15px;
   background: Orange;
   border-radius: 5px;
+  border: none;
+  outline: none;
 }
 span {
   margin-left: 5px;
   padding: 5px 15px;
-  background-color: cyan;
+  background-color: #b9b5f1;
   border-radius: 5px;
-  color: black;
+  color: #2c2c54;
 }
 p {
   /* background: pink; */
